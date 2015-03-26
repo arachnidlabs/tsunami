@@ -1,6 +1,7 @@
 G04 DipTrace 2.4.0.1*
 %INtsunami.backpaste.gbp*%
 %MOIN*%
+%ADD78R,0.052X0.152*%
 %FSLAX44Y44*%
 G04*
 G70*
@@ -9,4 +10,11 @@ G75*
 G01*
 %LNBotPaste*%
 %LPD*%
+D78*
+X19780Y4987D3*
+X17780D3*
+X9780D3*
+X7780D3*
+X17780Y34377D3*
+X19780D3*
 M02*
