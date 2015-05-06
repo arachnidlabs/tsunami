@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="3" oldestCompatibleVersion="3" GPDVersion="4.01.003" lastChange="01/04/2015 19:47">
+<GPDProject version="3" oldestCompatibleVersion="3" GPDVersion="4.02.002" lastChange="05/05/2015 18:27">
     <generalProjectSettings/>
     <chip family="04" type="03" revision="4" friendlyName="GreenPAK 3">
-        <nvmData registerLenght="512">0 8C 20 B 33 49 1 30 FE 11 FF EC 22 76 84 DC 2C 0 0 0 0 8 0 0 0 A0 7D 5 22 7 3 0 60 63 63 F 1B 0 0 FC 3 FF C0 1E 0 0 0 60 C 86 80 C1 10 88 2 80 3B 0 0 5A 8 0 0 A5</nvmData>
-        <checksum crc32="0xB7DE5310" version="0"/>
+        <nvmData registerLenght="512">0 8C 20 B 33 43 0 0 0 0 0 EC 22 76 84 DC 2C 0 0 0 0 8 0 0 0 A0 FD 3 22 6 3 0 60 63 63 F 1B 0 0 FC 3 FF C0 1E 0 0 0 60 C 86 80 C1 10 88 2 80 3B 0 0 5A 8 0 0 A5</nvmData>
+        <checksum crc32="0xE49D4753" version="0"/>
         <VDDItem id="0" min="2.9700" max="3.6300">
             <item id="0" caption="VDD">
                 <graphics pos="(-151.00,-129.00)" angle="0" flipping="0" hidden="0"/>
@@ -77,7 +77,7 @@
             <graphics pos="(363.00,13.00)" angle="0" flipping="0" hidden="0"/>
         </item>
         <item id="14" caption="2-bit LUT2">
-            <graphics pos="(213.00,-308.00)" angle="270" flipping="0" hidden="0"/>
+            <graphics pos="(213.00,-308.00)" angle="270" flipping="2" hidden="0"/>
         </item>
         <item id="15" caption="2-bit LUT3">
             <graphics pos="(50.00,-240.00)" angle="90" flipping="0" hidden="1"/>
@@ -89,10 +89,10 @@
             <graphics pos="(257.00,13.00)" angle="90" flipping="0" hidden="0"/>
         </item>
         <item id="18" caption="3-bit LUT0/DFF/LATCH2">
-            <graphics pos="(81.00,-372.00)" angle="0" flipping="0" hidden="0"/>
+            <graphics pos="(81.00,-372.00)" angle="0" flipping="0" hidden="1"/>
         </item>
         <item id="19" caption="3-bit LUT1/DFF/LATCH3">
-            <graphics pos="(81.00,-231.00)" angle="0" flipping="2" hidden="0"/>
+            <graphics pos="(81.00,-231.00)" angle="0" flipping="2" hidden="1"/>
         </item>
         <item id="20" caption="3-bit LUT4/Pipe Delay">
             <graphics pos="(499.00,-62.00)" angle="90" flipping="0" hidden="0"/>
@@ -130,92 +130,74 @@
         <item id="31" caption="BG">
             <graphics pos="(230.00,0.00)" angle="0" flipping="0" hidden="1"/>
         </item>
-        <wire output="1" input="15" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireState="1" wireText="VDD">
+        <wire output="1" input="15" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
             <points/>
         </wire>
-        <wire output="2" input="7" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="2" input="7" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(-98.00,-409.00); (-73.00,-409.00); (-73.00,-419.00)</points>
         </wire>
-        <wire output="4" input="6" autoRouting="0" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="4" input="6" autoRouting="0" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(-72.00,-312.00); (-23.00,-312.00); (-23.00,-453.00); (-34.00,-453.00)</points>
         </wire>
-        <wire output="3" input="195" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="3" input="195" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(-79.00,-171.00); (-69.00,-171.00); (-69.00,-54.00); (-59.00,-54.00)</points>
         </wire>
-        <wire output="87" input="157" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="87" input="157" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(184.00,-60.00); (194.00,-60.00); (194.00,-81.00); (88.00,-81.00); (88.00,-64.00); (98.00,-64.00)</points>
         </wire>
-        <wire output="3" input="60" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="3" input="60" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(-79.00,-171.00); (229.00,-171.00); (229.00,-74.00); (238.00,-74.00)</points>
         </wire>
-        <wire output="87" input="59" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="87" input="59" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(184.00,-60.00); (238.00,-60.00)</points>
         </wire>
-        <wire output="112" input="156" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="112" input="156" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(42.00,-54.00); (98.00,-54.00)</points>
         </wire>
-        <wire output="8" input="61" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="8" input="61" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(234.00,137.00); (212.00,137.00); (212.00,42.00); (241.00,42.00)</points>
         </wire>
-        <wire output="1" input="161" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="1" wireText="VDD">
-            <points/>
-        </wire>
-        <wire output="89" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(146.00,-362.00); (290.00,-362.00); (290.00,-303.00); (268.00,-303.00)</points>
-        </wire>
-        <wire output="25" input="162" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(197.00,-293.00); (104.00,-293.00); (104.00,-332.00)</points>
-        </wire>
-        <wire output="1" input="164" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="1" wireText="VDD">
-            <points/>
-        </wire>
-        <wire output="25" input="165" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(197.00,-293.00); (104.00,-293.00); (104.00,-252.00)</points>
-        </wire>
-        <wire output="90" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(146.00,-221.00); (289.00,-221.00); (289.00,-283.00); (268.00,-283.00)</points>
-        </wire>
-        <wire output="90" input="16" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(146.00,-221.00); (357.00,-221.00); (357.00,-356.00); (367.00,-356.00)</points>
-        </wire>
-        <wire output="57" input="63" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="57" input="63" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(42.00,15.00); (241.00,15.00)</points>
         </wire>
-        <wire output="112" input="123" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireState="0" wireText="">
+        <wire output="112" input="123" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
             <points>(42.00,-54.00); (52.00,-54.00); (52.00,-12.00); (-69.00,-12.00); (-69.00,10.00); (-59.00,10.00)</points>
         </wire>
-        <wire output="58" input="62" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="58" input="62" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(43.00,81.00); (231.00,81.00); (231.00,29.00); (241.00,29.00)</points>
         </wire>
-        <wire output="57" input="125" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireState="0" wireText="">
+        <wire output="57" input="125" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
             <points>(42.00,15.00); (52.00,15.00); (52.00,54.00); (-68.00,54.00); (-68.00,76.00); (-58.00,76.00)</points>
         </wire>
-        <wire output="8" input="58" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="8" input="58" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(234.00,137.00); (212.00,137.00); (212.00,-47.00); (238.00,-47.00)</points>
         </wire>
-        <wire output="32" input="158" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="32" input="158" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(312.00,29.00); (342.00,29.00)</points>
         </wire>
-        <wire output="88" input="159" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="88" input="159" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(428.00,23.00); (438.00,23.00); (438.00,2.00); (332.00,2.00); (332.00,19.00); (342.00,19.00)</points>
         </wire>
-        <wire output="31" input="184" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="31" input="184" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(309.00,-60.00); (483.00,-60.00)</points>
         </wire>
-        <wire output="88" input="183" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="88" input="183" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(428.00,23.00); (473.00,23.00); (473.00,-46.00); (483.00,-46.00)</points>
         </wire>
-        <wire output="9" input="182" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="9" input="182" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(476.00,136.00); (461.00,136.00); (461.00,-33.00); (483.00,-33.00)</points>
         </wire>
-        <wire output="97" input="14" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
+        <wire output="97" input="14" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(554.00,-46.00); (589.00,-46.00)</points>
         </wire>
-        <wire output="4" input="160" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(-72.00,-312.00); (50.00,-312.00); (50.00,-356.00); (60.00,-356.00)</points>
+        <wire output="25" input="16" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(268.00,-293.00); (357.00,-293.00); (357.00,-356.00); (367.00,-356.00)</points>
         </wire>
-        <wire output="3" input="163" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireState="0" wireText="">
-            <points>(-79.00,-171.00); (50.00,-171.00); (50.00,-215.00); (60.00,-215.00)</points>
+        <wire output="3" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-79.00,-171.00); (187.00,-171.00); (187.00,-283.00); (197.00,-283.00)</points>
+        </wire>
+        <wire output="4" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-72.00,-312.00); (177.00,-312.00); (177.00,-303.00); (197.00,-303.00)</points>
         </wire>
     </chip>
     <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
